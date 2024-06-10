@@ -15901,3 +15901,11 @@ img,video{
     flex-direction:column;
     min-height:100vh
 }
+
+/* Estilos globales (Cambialos o quitalos si quieres) */
+.glide__bullet {
+    background-color: transparent!important;
+}
+.glide__bullet--active {
+    background-color: #C40000FF!important;
+}
