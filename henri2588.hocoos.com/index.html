@@ -12,6 +12,7 @@
 		<link data-n-head="ssr" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap" />
 		<link data-n-head="ssr" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap" />
 		<link rel="stylesheet" href="_nuxt/css/a62a618586799abf8403.css" />
+		<link rel="stylesheet" href="/node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 		<script src="https://apis.google.com/js/platform.js" async defer></script>
 	</head>
 	<body
@@ -862,11 +863,11 @@
 										</div>
 										<div
 											tabindex="0"
-											class="kmb-site-slider kmb-slider has-indicators kmb-site-slider-mouse-drag kmb-site-slider-infinite-scroll kmb-slider-inside-navigation-center kmb-slider-inside-navigation-opacity-circle kmb-site-slider-pagination-lg-group"
+											class="kmb-site-slider kmb-slider has-indicators kmb-site-slider-mouse-drag kmb-site-slider-infinite-scroll kmb-slider-inside-navigation-center kmb-slider-inside-navigation-opacity-circle kmb-site-slider-pagination-lg-group glide"
 										>
-											<div class="kmb-slider-stage-outer kmb-site-slider-stage-outer">
-												<div data-slider-transition="400" class="kmb-slider-stage kmb-site-slider-stage" style="transform:translate3d(NaNpx, 0px, 0px);transition:all 0ms ease 0s;">
-													<div aria-hidden="true" class="kmb-site-slider-item kmb-slider-item is-clone h-full kmb-widget-xl-col" style="width:58.82352941176471%;">
+											<div class="kmb-slider-stage-outer kmb-site-slider-stage-outer glide__track" data-glide-el="track">
+												<div data-slider-transition="400" class="kmb-slider-stage kmb-site-slider-stage glide__slides" style="transform:translate3d(NaNpx, 0px, 0px);transition:all 0ms ease 0s;">
+													<div aria-hidden="true" class="kmb-site-slider-item kmb-slider-item is-clone h-full kmb-widget-xl-col glide__slide" style="width:58.82352941176471%;">
 														<div class="testimonial-item flex kmb-widget-bg kmb-xl-radius py-24 px-10 h-full">
 															<div class="kmb-md-widget-container flex flex-col items-center justify-center">
 																<div class="kmb-widget-col-group">
@@ -912,7 +913,7 @@
 															</div>
 														</div>
 													</div>
-													<div aria-hidden="true" class="kmb-site-slider-item kmb-slider-item is-clone h-full kmb-widget-xl-col" style="width:58.82352941176471%;">
+													<div aria-hidden="true" class="kmb-site-slider-item kmb-slider-item is-clone h-full kmb-widget-xl-col glide__slide" style="width:58.82352941176471%;">
 														<div class="testimonial-item flex kmb-widget-bg kmb-xl-radius py-24 px-10 h-full">
 															<div class="kmb-md-widget-container flex flex-col items-center justify-center">
 																<div class="kmb-widget-col-group">
@@ -961,7 +962,7 @@
 															</div>
 														</div>
 													</div>
-													<div aria-hidden="true" class="kmb-site-slider-item kmb-slider-item is-clone h-full kmb-widget-xl-col" style="width:58.82352941176471%;">
+													<div aria-hidden="true" class="kmb-site-slider-item kmb-slider-item is-clone h-full kmb-widget-xl-col glide__slide" style="width:58.82352941176471%;">
 														<div class="testimonial-item flex kmb-widget-bg kmb-xl-radius py-24 px-10 h-full">
 															<div class="kmb-md-widget-container flex flex-col items-center justify-center">
 																<div class="kmb-widget-col-group">
@@ -1007,7 +1008,7 @@
 															</div>
 														</div>
 													</div>
-													<div aria-hidden="true" class="kmb-site-slider-item kmb-slider-item is-clone is-prev h-full kmb-widget-xl-col" style="width:58.82352941176471%;">
+													<div aria-hidden="true" class="kmb-site-slider-item kmb-slider-item is-clone is-prev h-full kmb-widget-xl-col glide__slide" style="width:58.82352941176471%;">
 														<div class="testimonial-item flex kmb-widget-bg kmb-xl-radius py-24 px-10 h-full">
 															<div class="kmb-md-widget-container flex flex-col items-center justify-center">
 																<div class="kmb-widget-col-group">
@@ -1057,20 +1058,20 @@
 													</div>
 												</div>	
 											</div>
-											<div class="kmb-site-slider-navigation slider-navigation kmb-site-arrow-slider-navigation arrow-slider-navigation flex items-center kmb-site-slider-navigation-angle-arrow">
-												<button aria-label="Anterior" class="kmb-slide-prev-btn slider-navigation-btn kmb-site-slider-nav-default" style="color:#C40000FF;">
+											<div class="kmb-site-slider-navigation slider-navigation kmb-site-arrow-slider-navigation arrow-slider-navigation flex items-center kmb-site-slider-navigation-angle-arrow glide__arrows" data-glide-el="controls">
+												<button aria-label="Anterior" class="kmb-slide-prev-btn slider-navigation-btn kmb-site-slider-nav-default glide__arrow glide__arrow--left" data-glide-dir="<" style="color:#C40000FF;">
 													<i class="kmb-slide-nav-btn-icon kmb-site-icon-angle-left"></i>
 												</button>
-												<button aria-label="siguiente" class="kmb-slide-next-btn slider-navigation-btn kmb-site-slider-nav-default" style="color:#C40000FF;">
+												<button aria-label="siguiente" class="kmb-slide-next-btn slider-navigation-btn kmb-site-slider-nav-default glide__arrow glide__arrow--right" data-glide-dir=">" style="color:#C40000FF;">
 													<i class="kmb-slide-nav-btn-icon kmb-site-icon-angle-right"></i>
 												</button>
 											</div>
 											<div class="kmb-site-slider-pagination slider-navigation flex items-center kmb-site-slider-indicators kmb-site-slider-dots-indicators slider-indicators">
-												<div class="kmb-site-slider-indicators-wrapper slider-indicators-wrapper">
-													<button aria-label="01" class="kmb-site-slider-indicator slider-indicator mx-2 active" style="border-color:#C40000FF;background:#C40000FF;"></button>
-													<button aria-label="02" class="kmb-site-slider-indicator slider-indicator mx-2" style="border-color:#C40000FF;"></button>
-													<button aria-label="03" class="kmb-site-slider-indicator slider-indicator mx-2" style="border-color:#C40000FF;"></button>
-													<button aria-label="04" class="kmb-site-slider-indicator slider-indicator mx-2" style="border-color:#C40000FF;"></button>
+												<div class="kmb-site-slider-indicators-wrapper slider-indicators-wrapper glide__bullets" data-glide-el="controls[nav]">
+													<button aria-label="01" class="kmb-site-slider-indicator slider-indicator mx-2 active glide__bullet" data-glide-dir="=0" style="border-color:#C40000FF;"></button>
+													<button aria-label="02" class="kmb-site-slider-indicator slider-indicator mx-2 glide__bullet" data-glide-dir="=1"  style="border-color:#C40000FF;"></button>
+													<button aria-label="03" class="kmb-site-slider-indicator slider-indicator mx-2 glide__bullet" data-glide-dir="=2"  style="border-color:#C40000FF;"></button>
+													<button aria-label="04" class="kmb-site-slider-indicator slider-indicator mx-2 glide__bullet" data-glide-dir="=3"  style="border-color:#C40000FF;"></button>
 												</div>
 											</div>
 										</div>
@@ -1334,5 +1335,27 @@
 		<script src="_nuxt/js/runtime.60c60d6197ea80ead63a.js" defer></script>
 		<script src="_nuxt/js/commons/app.1d7aaf31750df41e0370.js" defer></script>
 		<script src="_nuxt/js/app.2c2187fb9ff34d931bde.js" defer></script>
+		<script src="/node_modules/@glidejs/glide/dist/glide.min.js"></script>
+		<script>
+			// Menu Toggles
+			const hiddenMenu = document.querySelector('.kmb-menu-navbar-collapse');
+			const toggleMenu = document.querySelector('.kmb-navbar-toggles');
+		
+			toggleMenu.addEventListener('click', () => {
+				hiddenMenu.style.display = hiddenMenu.style.display === 'none' ? 'block' : 'none';
+			});
+			
+			// Incializar carousel
+			new Glide('.glide', {
+				type: 'carousel',
+				startAt: 0,
+				perView: 2,
+				breakpoints: {
+					768: {
+						perView: 1
+					},
+				}
+			}).mount()
+		</script>
 	</body>
 </html>
